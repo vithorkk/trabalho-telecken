@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="table.css">
+    <title>Trabalho de HTML5</title>
+</head>
+
+<body>
+    <header>
+        <h1><b>Trabalho HTML5</b></h1>
+        <p><b>Trabalho de HTML5.</b></p>
+        <p><i>Site para trabalho do professor Telecken.</i></p>
+    </header>
+
+    <nav>
+        <ul>
+            <li>Menu</li>
+            <li>Principal</li>
+            <li>Produtos</li>
+            <li>Serviços</li>
+            <li>Sobre</li>
+        </ul> 
+    </nav>
+
+    <main>
+        <table style = "width:25%">
+            <caption> <b> Lucros por mês: </b> </caption>
+
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th colspan = "2">Frutas</th>
+                </tr>
+
+
+                <tr>
+                    <th></th>
+                    <th>Banana</th>
+                    <th>Maçã</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>100</td>
+                    <td>50</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>120</td>
+                    <td>100</td>
+                </tr>
+                <tr>
+                    <td>Março</td>
+                    <td>120</td>
+                    <td>150</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td>Total</td>
+                    <td>340</td>
+                    <td>300</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <hr>
+
+        <figure>
+            <img src="img/bananaemaca.png" alt="Banana & Maçã" width="450" height="350">
+            <figcaption> Banana e Maçã </figcaption>
+        </figure>
+
+        <hr>
+
+        <a href="https://ifrs.edu.br/riogrande/">
+            <img src="img/logoif.png" alt="Logo IFRS" width="1073" height="312">
+        </a>
+        
+        <hr>
+
+        <fieldset>
+            <legend> Formulário </legend>
+
+            <form>
+                
+                <label for="nome">Nome completo:</label><br>
+                <input type="text" id="nome" name="nome"><br><br>
+
+                <label for="usuario">Usuário:</label><br>
+                <input type="text" id="usuario" name="usuario"><br><br>
+
+                <label for="email">E-mail:</label><br>
+                <input type="email" id="email" name="email"><hr>
+
+                <label for="nasc">Data de nascimento:</label><br>
+                <input type="date" id="nasc" name="nasc"><hr>
+
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha"><br><br>
+
+                <label for="senhan">Digite a senha novamente:</label><br>
+                <input type="password" id="senhan" name="senhan"><hr><br>
+
+                <input type="submit" value="Registrar-se">
+
+            </form>
+
+        </fieldset>
+        
+        <br>
+
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/TuDi1O-H594" > </iframe>
+    </main>
+
+    <footer>
+        <p> Site para o trabalho de HTML5 </p>
+        <p>R. Alm. Barroso - Parque Res. Salgado Filho, Rio Grande - RS, 96201-550</p>
+    </footer>
+</body>
+
+</html>
